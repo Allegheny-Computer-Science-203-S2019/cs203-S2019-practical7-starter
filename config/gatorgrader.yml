@@ -24,7 +24,7 @@ writing/reflection.md:
     --words 100
 # --> check the number of commits beyond a threshold
 --commits 10
-# --> check that the program executes and produces 4 lines of output
+# --> check that the program executes and produces 11 lines of output
 --command "pipenv run python3 termfrequency/compute_tf_aspects.py inputs/input.txt" --executes
 --command "pipenv run python3 termfrequency/compute_tf_aspects.py inputs/input.txt" --count 11 --exact
 --command "pipenv run python3 termfrequency/compute_tf_aspects.py inputs/input.txt" --fragment "took" --count 3 --exact
