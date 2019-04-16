@@ -55,7 +55,6 @@ script:
   - mdl README.md
   # Python: run and lint the program
   - pipenv run pytest
-  - pipenv run python3 termfrequency/compute_tf_pipeline.py inputs/input.txt
   - pipenv run flake8 termfrequency
   - pipenv run black --check termfrequency
   - pipenv run pylint termfrequency
